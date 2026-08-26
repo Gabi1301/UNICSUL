@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int quantidade;
+    float preço_unitario = 23.90;
+    float valor_total; 
+
+    printf("Digite a quantidade de cafés: ");
+    scanf("%d", &quantidade);
+
+    valor_total = quantidade * preço_unitario;
+
+    printf("O valor do pedido foi de: R$%.2f", valor_total);
+
+    return 0;
+}
