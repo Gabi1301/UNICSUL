@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador de Números</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Somador Dinâmico</h1>
+        
+        <div class="input-group">
+            <input type="text" id="numeroInput" placeholder="Digite um número ou 's' para parar" autocomplete="off">
+            <button id="btnAdicionar">Enviar</button>
+        </div>
+        
+        <div id="mensagemErro" class="alert-message"></div>
+
+        <div class="result-box">
+            <p>Histórico (Array): <span id="listaNumeros">[]</span></p>
+            <p>Soma Atual: <span id="somaTotal">0</span></p>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
