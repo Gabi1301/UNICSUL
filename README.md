@@ -1,2 +1,3 @@
 # UNICSUL
-Lançar arquivos referente as atividades/projetos aplicados em sala 
+Olá rede! 
+Nesse reposirtório você encontrará todos os meus trabalhos e projetos que estou executando seguindo as orientações do professor da Universidade Cruzeiro do Sul. 
